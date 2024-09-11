@@ -1,0 +1,54 @@
+/* modal.css */
+#auto-close-modal {
+  font-family: Sans-serif;
+  background-color: rgba(255, 250, 255, 0.75);
+  color: rgb(140, 140, 140);
+  width: 200px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+
+#auto-close-h1 {
+  margin: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+#auto-close-buttons {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  width: 100%;
+}
+
+#cancelAutoClose {
+  font-size: 10px;
+  font-family: Sans-serif;
+  color: rgb(255, 250, 255);
+  background-color: rgba(252, 81, 48, 0.75);
+  width: 50%;
+  box-sizing: border-box;
+  height: 100%;
+  border: none;
+}
+
+#enableAutoClose {
+  font-size: 10px;
+  font-family: Sans-serif;
+  color: rgb(255, 250, 255);
+  background-color: rgba(53, 206, 141, 0.75);
+  width: 50%;
+  box-sizing: border-box;
+  height: 100%;
+  border: none;
+}
